@@ -38,7 +38,7 @@ export class Leon extends Animal{
 export class Lobo extends Animal{
     
     aullar(){
-        console.log(`rugiendo`)
+        return '../../sounds/aullido'
     }
 
 }
